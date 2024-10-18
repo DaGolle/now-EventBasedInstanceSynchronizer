@@ -6,9 +6,7 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Process inbound EBIS events</description>
-        <mobile_callable>false</mobile_callable>
         <name>InboundEventUtil</name>
-        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[class InboundEventUtil {
 
 	process(action, tableName, payload) {
@@ -90,15 +88,4 @@
         <sys_updated_by>david.van.damme</sys_updated_by>
         <sys_updated_on>2024-10-18 12:47:45</sys_updated_on>
     </sys_script_include>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>2d5fca0247e10210cf10815a516d4393</id>
-        <sys_created_by>david.van.damme</sys_created_by>
-        <sys_created_on>2024-10-18 12:47:45</sys_created_on>
-        <sys_id>e8f2b04a4791d610cf10815a516d432e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>david.van.damme</sys_updated_by>
-        <sys_updated_on>2024-10-18 12:47:45</sys_updated_on>
-        <table>sys_script_include</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

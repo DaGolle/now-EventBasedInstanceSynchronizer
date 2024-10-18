@@ -6,9 +6,7 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Helper class to manage Configuration [x_snc_ebis.configuration] records</description>
-        <mobile_callable>false</mobile_callable>
         <name>ConfigurationUtil</name>
-        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[class ConfigurationUtil {
 	static find(direction, action, tableName) {
 		const grConfiguration = new global.GlideQuery('x_snc_ebis_configuration')
@@ -139,15 +137,4 @@
         <sys_updated_by>david.van.damme</sys_updated_by>
         <sys_updated_on>2024-10-18 12:32:50</sys_updated_on>
     </sys_script_include>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>fee909244721c210cf10815a516d4392</id>
-        <sys_created_by>david.van.damme</sys_created_by>
-        <sys_created_on>2024-10-18 09:25:38</sys_created_on>
-        <sys_id>fba4804a47dd9610cf10815a516d438d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>david.van.damme</sys_updated_by>
-        <sys_updated_on>2024-10-18 09:25:38</sys_updated_on>
-        <table>sys_script_include</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>
