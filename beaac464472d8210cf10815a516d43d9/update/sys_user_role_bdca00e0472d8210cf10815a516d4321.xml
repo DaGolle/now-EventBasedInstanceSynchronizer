@@ -5,7 +5,6 @@
         <description>Create, update and delete configuration records&#13;
 Contains x_snc_ebis.user for read of configuration records</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_snc_ebis.admin</name>
