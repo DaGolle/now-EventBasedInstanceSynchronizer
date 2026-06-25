@@ -2,6 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_snc_ebis_value_map" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="Value Map - Default view" name="x_snc_ebis_value_map" related_list="NULL" sys_domain="global" view="Default view">fab392f547141e10abf1d9ca516d4382</list_id>
             <order_by/>
             <position>0</position>

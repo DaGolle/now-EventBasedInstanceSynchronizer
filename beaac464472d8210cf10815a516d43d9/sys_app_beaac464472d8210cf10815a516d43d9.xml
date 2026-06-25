@@ -17,6 +17,7 @@
         <menu display_value="EBIS">d75d4828472d8210cf10815a516d43dc</menu>
         <name>Event Based Instance Synchronizer</name>
         <package_json/>
+        <package_resolver_version/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
